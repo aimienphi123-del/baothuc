@@ -1,0 +1,30 @@
+name: bao_khong_ngu
+description: BaoKhongNgu - ứng dụng To-do / To-don't ngoại tuyến cho cá nhân.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  path_provider: ^2.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/logo.png
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/icon/logo.png"
